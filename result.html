@@ -115,7 +115,7 @@ const DATA=[
 "회의록을 공개할 때 학교, 학년반, 이름과 민감한 내용을 가린다"]]];
 
 /* ▼ 체크리스트 파일과 같은 주소를 넣습니다. */
-const DB_URL="";            // 예: "https://내프로젝트-default-rtdb.firebaseio.com"
+const DB_URL="https://gansa-checklist-default-rtdb.firebaseio.com";            // 예: "https://내프로젝트-default-rtdb.firebaseio.com"
 const ROOM="gansa1119";
 const base=()=>DB_URL.replace(/\/$/,"")+"/"+ROOM+"/responses";
 const total=DATA.reduce((a,s)=>a+s[2].length,0);
